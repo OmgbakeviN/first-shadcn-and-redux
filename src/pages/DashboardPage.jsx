@@ -23,7 +23,7 @@ export default function DashboardPage() {
 
     const handleLogout = () => {
         dispatch(logout());
-        navigate("/login");
+        navigate("/");
     }   
 
     const chartData = useSelector((state) => state.chart.chartData);
