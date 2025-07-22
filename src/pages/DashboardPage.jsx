@@ -17,7 +17,7 @@ export default function DashboardPage() {
 
     useEffect(() => {
         if (!user) {
-            navigate("/login");
+            navigate("/");
         }
     }, [user, navigate]);
 
